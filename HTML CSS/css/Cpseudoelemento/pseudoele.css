@@ -1,0 +1,26 @@
+ul li::after {
+  content: ' - ';
+  background: gray;
+  color: #fff;
+  display:block;
+}
+
+p {
+  font-size: 24px;
+}
+
+p::first-letter {
+  font-size: 150px;
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+p::first-line {
+  background-color: red;
+}
+
+p::selection {
+  background-color: black;
+  color: white;
+}

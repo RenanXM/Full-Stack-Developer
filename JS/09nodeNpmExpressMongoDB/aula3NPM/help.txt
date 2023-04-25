@@ -1,0 +1,14 @@
+-> iniciar npm = 'npm init -y'
+
+REVER QUANDO PRECISAR: AULA 126 CURSO DO BRENO!!
+atualizar, desinstalar, escolher versão, etc.
+flags ^ ~ : versões major. minor etc
+
+Npm é o gerenciador de pacotes do Node.
+
+Versões:
+2.    1.    0
+major minor patch
+             bugs
+
+

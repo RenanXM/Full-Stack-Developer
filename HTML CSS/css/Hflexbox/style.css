@@ -1,0 +1,26 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex; /*poderoso*/
+  flex-direction: row; /*ganhei por causa do flex*/
+  justify-content: center; /*ganhei por causa do flex*/
+  flex-wrap: wrap;
+  align-items: stretch; /*ganhei por causa do flex*/
+  background: yellow; /*ganhei por causa do flex*/
+  height: 500px; 
+} 
+
+.flex-item {
+  color: #fff;
+  width: 100%;
+  background-color: red;
+  margin: 10px;
+}
+
+.flex-item:nth-child(3) {
+  font-size: 40px;
+}
